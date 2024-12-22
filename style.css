@@ -27,3 +27,30 @@
 #showDialog {
   margin-bottom: 20px;
 }
+
+
+/* Constraint validation */
+
+input.valid {
+  border-color: #090;
+  background-color: #dfd;
+}
+
+input.invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+.error {
+  margin-top: 5px;
+  padding: 0.3em;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #900;
+  display: none;
+  border-radius: 4px;
+}
+
+.error.active {
+  display: block;
+}
